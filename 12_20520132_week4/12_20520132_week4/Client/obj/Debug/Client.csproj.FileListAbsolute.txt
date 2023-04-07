@@ -1,0 +1,11 @@
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\bin\Debug\Client.exe.config
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\bin\Debug\Client.exe
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\bin\Debug\Client.pdb
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\obj\Debug\Client.Client.resources
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\obj\Debug\Client.exe
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\Client\obj\Debug\Client.pdb

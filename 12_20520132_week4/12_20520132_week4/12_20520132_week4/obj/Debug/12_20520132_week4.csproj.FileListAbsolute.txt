@@ -1,0 +1,11 @@
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\bin\Debug\12_20520132_week4.exe.config
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\bin\Debug\12_20520132_week4.exe
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\bin\Debug\12_20520132_week4.pdb
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\obj\Debug\12_20520132_week4.csproj.AssemblyReference.cache
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\obj\Debug\12_20520132_week4.csproj.SuggestedBindingRedirects.cache
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\obj\Debug\_12_20520132_week4.Properties.Resources.resources
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\obj\Debug\_12_20520132_week4.Menu.resources
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\obj\Debug\12_20520132_week4.csproj.GenerateResource.cache
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\obj\Debug\12_20520132_week4.csproj.CoreCompileInputs.cache
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\obj\Debug\12_20520132_week4.exe
+C:\Users\anhtk\Desktop\Lập trình mạng căn bản\bai_tap\12_20520132_Week\12_20520132_week4\12_20520132_week4\12_20520132_week4\obj\Debug\12_20520132_week4.pdb

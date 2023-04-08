@@ -34,17 +34,19 @@ namespace Server
 
         private void btn_connect_Click(object sender, EventArgs e)
         {
-            string ip = tb_ip.Text.Trim();
-            string port = tb_port.Text.Trim();
+            btn_connect.Enabled = false;
+            string ip = tb_ip.Text;
+            string port = tb_port.Text;
             bool checkaddr = IsIpV4Address(ip);
             bool checkport = IsPort(port);
             if (checkaddr && checkport)
             {
                 btn_stop.Enabled = true;
                 btn_send.Enabled = true;
-                btn_connect.Enabled = false;
                 _listener = new TcpListener(IPAddress.Parse(ip), Convert.ToInt32(port));
                 _listener.Start();
+
+                _client = _listener.AcceptTcpClient();
 
                 _thread = new Thread(acpclient);
                 _thread.Start();
@@ -60,13 +62,15 @@ namespace Server
         {
             while (_accept)
             {
-                _client = _listener.AcceptTcpClient();
-                NetworkStream = _client.GetStream();
+                if (_client.Available > 0)
+                {
+                    NetworkStream = _client.GetStream();
 
-                byte[] msg = new byte[_client.ReceiveBufferSize];
-                NetworkStream.Read(msg, 0, msg.Length); 
-                string _msg = Encoding.UTF8.GetString(msg);
-                lb_text.Items.Add(_msg.ToString());
+                    byte[] msg = new byte[_client.ReceiveBufferSize];
+                    NetworkStream.Read(msg, 0, msg.Length);
+                    string _msg = Encoding.UTF8.GetString(msg);
+                    lb_text.Items.Add(_msg.ToString());
+                }    
             }    
         }
         public static bool IsPort(string str)

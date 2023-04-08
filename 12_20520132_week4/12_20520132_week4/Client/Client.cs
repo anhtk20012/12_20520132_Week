@@ -30,8 +30,8 @@ namespace Client
 
         private void btn_connect_Click(object sender, EventArgs e)
         {
-            string ip = tb_ip.Text.Trim();
-            string port = tb_port.Text.Trim();
+            string ip = tb_ip.Text;
+            string port = tb_port.Text;
             bool checkaddr = IsIpV4Address(ip);
             bool checkport = IsPort(port);
             if (checkaddr && checkport)
@@ -44,7 +44,7 @@ namespace Client
                     byte[] msg = Encoding.ASCII.GetBytes("Client Connect");
                     stream.Write(msg, 0, msg.Length);
                     client.Close();
-                }    
+                }
             }
             else
             {
@@ -103,13 +103,13 @@ namespace Client
             {
                 client = new TcpClient();
                 client.Connect(IPAddress.Parse(ip), Convert.ToInt32(port));
-                if (client.Connected)
-                {
-                    stream = client.GetStream();
-                    byte[] msg = Encoding.ASCII.GetBytes(tb_text.Text);
-                    stream.Write(msg, 0, msg.Length);
-                    client.Close();
-                }
+            if (client.Connected)
+            {
+                stream = client.GetStream();
+                byte[] msg = Encoding.ASCII.GetBytes(tb_text.Text);
+                stream.Write(msg, 0, msg.Length);
+                client.Close();
+            }
             }
             else
             {
